@@ -6,14 +6,12 @@ Users can explore recipes, view ingredients, and manage shopping lists with a pl
 Built with **SwiftUI, SwiftData, and modern iOS frameworks**, following a **Clean Architecture** pattern with Domain, Data, Presentation, and Infrastructure layers.  
 This project demonstrates modular architectures, SwiftUI best practices, and integration with backend services.
 
----
 
 ## Video presentation
 
 <img src="VideoTutorial.gif" alt="Video Presentation" width="300"/>
 <p><em>Full functionality of the application</em></p>
 
----
 
 ## Features
 
@@ -26,7 +24,6 @@ This project demonstrates modular architectures, SwiftUI best practices, and int
 - Subscription management with RevenueCat (demo data)
 - Clean, modular architecture suitable for scaling and testing
 
----
 
 ## Architecture
 
@@ -40,11 +37,13 @@ The app follows **Clean Architecture** with the following layers:
     - Infrastructure (Supabase, SwiftData, DispatchSourceTimer, UNUserNotificationCenter, RevenueCat)
 
 **Domain:** core entities, repository interfaces, use cases
+
 **Data:** repository implementations, datasources, mappers
+
 **Infrastructure:** backend integration, local persistence, timers, notifications
+
 **Presentation:** SwiftUI views and ViewModels managing state and UI
 
----
 
 ## Technologies
 
