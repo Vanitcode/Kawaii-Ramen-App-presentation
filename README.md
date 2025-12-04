@@ -39,11 +39,10 @@ The app follows **Clean Architecture** with the following layers:
     - Data (Repositories, Datasources, Mappers, Actors)
     - Infrastructure (Supabase, SwiftData, DispatchSourceTimer, UNUserNotificationCenter, RevenueCat)
 
-
-- **Domain:** core entities, repository interfaces, use cases
-- **Data:** repository implementations, datasources, mappers
-- **Infrastructure:** backend integration, local persistence, timers, notifications
-- **Presentation:** SwiftUI views and ViewModels managing state and UI
+**Domain:** core entities, repository interfaces, use cases
+**Data:** repository implementations, datasources, mappers
+**Infrastructure:** backend integration, local persistence, timers, notifications
+**Presentation:** SwiftUI views and ViewModels managing state and UI
 
 ---
 
