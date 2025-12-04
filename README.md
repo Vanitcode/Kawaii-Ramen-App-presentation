@@ -10,8 +10,8 @@ This project demonstrates modular architectures, SwiftUI best practices, and int
 
 ## Video presentation
 
-![Video Presentation](VideoTutorial.gif) 
-*Full functionality of the application*
+<img src="VideoTutorial.gif" alt="Video Presentation" width="300"/>
+<p><em>Full functionality of the application</em></p>
 
 ---
 
