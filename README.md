@@ -32,12 +32,13 @@ This project demonstrates modular architectures, SwiftUI best practices, and int
 
 The app follows **Clean Architecture** with the following layers:
 
-App
-└── Composition Root
-├── Presentation (SwiftUI + @Observable ViewModels)
-├── Domain (Entities, Use Cases, Repository Interfaces)
-├── Data (Repositories, Datasources, Mappers)
-└── Infrastructure (Supabase, SwiftData, Actors, Timers, Notifications)
+- App
+  - Composition Root
+    - Presentation (SwiftUI + @Observable ViewModels)
+    - Domain (Entities, Use Cases, Repository Interfaces)
+    - Data (Repositories, Datasources, Mappers, Actors)
+    - Infrastructure (Supabase, SwiftData, DispatchSourceTimer, UNUserNotificationCenter, RevenueCat)
+
 
 - **Domain:** core entities, repository interfaces, use cases
 - **Data:** repository implementations, datasources, mappers
